@@ -1,10 +1,10 @@
 import { GraduationCap } from "lucide-react";
 
 const education = [
-  { degree: "MCA (AI, ML & Data Science)", school: "S-VYASA University", year: "2024–Present", score: "" },
-  { degree: "BCA", school: "Bangalore Institute of Management Studies", year: "2021–2024", score: "71.15%" },
-  { degree: "PU", school: "KTSV PU College", year: "", score: "76%" },
-  { degree: "SSLC", school: "Pine Woods School", year: "", score: "75.36%" },
+  { degree: "MCA (AI, ML & Data Science)", school: "S-VYASA University", year: "2024–Present" },
+  { degree: "BCA", school: "Bangalore Institute of Management Studies", year: "2021–2024"},
+  { degree: "PU", school: "KTSV PU College", year: "2019-2021"},
+  { degree: "SSLC", school: "Pine Woods School", year: "2017-2018"},
 ];
 
 const AboutSection = () => (
@@ -42,7 +42,6 @@ const AboutSection = () => (
                   <p className="text-sm text-muted-foreground">{e.school}</p>
                   <div className="flex gap-3 mt-1 text-xs text-muted-foreground">
                     {e.year && <span>{e.year}</span>}
-                    {e.score && <span className="text-neon-blue">{e.score}</span>}
                   </div>
                 </div>
               </div>
