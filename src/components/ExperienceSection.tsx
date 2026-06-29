@@ -4,7 +4,7 @@ const experiences = [
   {
     role: "Web Developer Intern",
     company: "S-Vyasa University",
-    period: "2026–Present",
+    period: "2026",
     points: ["UI/UX improvements", "Figma to responsive design", "Performance optimization"],
   },
   {

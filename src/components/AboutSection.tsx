@@ -1,7 +1,7 @@
 import { GraduationCap } from "lucide-react";
 
 const education = [
-  { degree: "MCA (AI, ML & Data Science)", school: "S-VYASA University", year: "2024–Present" },
+  { degree: "MCA (AI, ML & Data Science)", school: "S-VYASA University", year: "2024–2026" },
   { degree: "BCA", school: "Bangalore Institute of Management Studies", year: "2021–2024"},
   { degree: "PU", school: "KTSV PU College", year: "2019-2021"},
   { degree: "SSLC", school: "Pine Woods School", year: "2017-2018"},
