@@ -47,7 +47,7 @@ const HeroSection = () => {
           </p>
           <div className="flex gap-4 pt-2">
             <a href="#projects" className="btn-primary">View Projects</a>
-            <a href="/Shashikala_Resume.pdf" download className="btn-outline flex items-center gap-2"><Download size={16} /> Download CV</a>
+            <a href="/Shashikala_G_Resume.pdf" download className="btn-outline flex items-center gap-2"><Download size={16} /> Download CV</a>
           </div>
           <div className="flex gap-4 pt-4">
             <a href="https://github.com/Shashikala-05" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-neon-purple transition-colors">
